@@ -1,3 +1,6 @@
-j = [0,1,2,3,4,5,6,7]
-j = j[4:]
-print(j)
+# import random
+# A = []
+# for i in range(1000):
+#     A.append(random.randint(1,1000))
+# print(A)
+
