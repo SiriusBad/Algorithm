@@ -17,7 +17,7 @@ xdata = np.array(
 
 ydata =np.array([[1],[1],[1],[1],[1],[-1],[-1],[-1],[-1],[-1]])
 
-def Momentum(X, y, learning_rate=0.0001, num_epochs=1000000, batch_size=2):
+def Adam(X, y, learning_rate=0.0001, num_epochs=1000000, batch_size=2):
     global m_hat, v_hat
     num_instances, num_features = X.shape
     num_batches = num_instances // batch_size    #batch个数
@@ -64,7 +64,7 @@ def Momentum(X, y, learning_rate=0.0001, num_epochs=1000000, batch_size=2):
     return w
 
 if __name__ == '__main__':
-    w = Momentum(xdata,ydata)
+    w = Adam(xdata,ydata)
     print(w)
     for i in range(xdata.shape[0]):
         if ydata[i][0] > 0:
