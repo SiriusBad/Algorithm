@@ -7,8 +7,8 @@ import time
 
 class Perceptron(object):
     def __init__(self):
-        self.study_step = 0.1  # 学习步长即学习率
-        self.study_total = 20  # 学习次数即训练次数
+        self.study_step = 0.01  # 学习步长即学习率
+        self.study_total = 200  # 学习次数即训练次数
         self.w_total = 1  # w更新次数
 
     # 对数据集进行训练
