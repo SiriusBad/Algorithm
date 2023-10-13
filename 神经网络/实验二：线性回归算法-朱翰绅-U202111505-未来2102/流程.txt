@@ -1,0 +1,10 @@
+"""
+clawer made copyright reserved
+在data_generator.py 中实现了随机正态分布数据的生成，以及label与数据集的通道合并
+在LR中实现了 广义逆、GD、SGD、Adagrad、RMSProp、Adam算法的实现，并支持batchsize，以及预测功能
+在timehook中实现了可被调用的时间计时函数，并在PLA的训练和测试算法中调用
+在visualize中实现了散点图的绘制，以及给定权重和点数据 分界面的绘制，以及损失函数的绘制
+在main中集成了实验所需要的代码，包括数据准备，训练，测试，和可视化。
+在homework.py中做了作业的编程解法
+在curve.py中实现了第五题中各种梯度下降方法与可视化
+"""

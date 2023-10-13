@@ -1,0 +1,10 @@
+实现算法：
+基于epoch 并且由batch size控制
+梯度下降算法（full epoch）
+随机梯度下降（SGD batch）
+Adgrad
+RMSProp
+动量法
+Adam
+实现可视化：损失函数与epoch关系曲线
+注意：线性回归本是拟合曲线，此处要拟合分类面，因此分类之前应通过一个sign函数预测结果

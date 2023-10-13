@@ -1,20 +1,5 @@
 import numpy as np
-from tqdm import *
+import matplotlib.pyplot as plt
 
-X = np.array(
-        [[1,0.2,0.7],
-         [1,0.3,0.3],
-         [1,0.4,0.5],
-         [1,0.6,0.5],
-         [1,0.1,0.4],
-         [1,0.4,0.6],
-         [1,0.6,0.2],
-         [1,0.7,0.4],
-         [1,0.8,0.6],
-         [1,0.7,0.5]])
-
-y =np.array([[1],[1],[1],[1],[1],[-1],[-1],[-1],[-1],[-1]])
-
-w = np.zeros((3,1))
-
-print(np.zeros_like(w))
+l = [1,2,3]
+print(l[-1])
